@@ -1,0 +1,18 @@
+bash: noed: command not found
+[Mon Aug 01 2022 04:13:51 GMT+0900 (日本標準時)] Server Error Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Object.<anonymous> (/app/index.js:18:8)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
